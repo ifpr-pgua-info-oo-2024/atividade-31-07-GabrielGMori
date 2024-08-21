@@ -25,22 +25,22 @@ public class Main {
 
         System.out.println("");
 
-        Aluno aluno1 = new Aluno("Joãozinho", "iniciante", convertStringToDate("12/08/2099"));
+        Aluno aluno1 = new Aluno("Joãozinho", convertStringToDate("12/08/2099"), "iniciante");
         academia1.alunos.add(aluno1);
 
-        Aluno aluno2 = new Aluno("Joãozinho (Clone)", "iniciante", convertStringToDate("15/09/2099"));
+        Aluno aluno2 = new Aluno("Joãozinho (Clone)", convertStringToDate("15/09/2099"), "iniciante");
         academia1.alunos.add(aluno2);
 
-        Aluno aluno3 = new Aluno("Matheus", "avançado", convertStringToDate("14/03/2100"), "masculino", 1.7, 78.2);
+        Aluno aluno3 = new Aluno("Matheus", convertStringToDate("14/03/2100"), "masculino", 1.7, 78.2, "avançado");
         academia1.alunos.add(aluno3);
 
-        Aluno aluno4 = new Aluno("Sérgio", "iniciante", convertStringToDate("12/12/2097"), "masculino", 1.72, 76.5);
+        Aluno aluno4 = new Aluno("Sérgio", convertStringToDate("12/12/2097"), "masculino", 1.72, 76.5, "iniciante");
         academia2.alunos.add(aluno4);
 
-        Aluno aluno5 = new Aluno("Roger", "intermediário", convertStringToDate("13/05/2096"), "masculino", 1.81, 62.5);
+        Aluno aluno5 = new Aluno("Roger", convertStringToDate("13/05/2096"), "masculino", 1.81, 62.5, "intermediário");
         academia2.alunos.add(aluno5);
 
-        Aluno aluno6 = new Aluno("Pedro", "intermediário", convertStringToDate("14/05/2100"), "masculino", 1.75, 70.8);
+        Aluno aluno6 = new Aluno("Pedro", convertStringToDate("14/05/2100"), "masculino", 1.75, 70.8, "intermediário");
         academia2.alunos.add(aluno6);
 
         System.out.println("Academia 1:" + "\n");
